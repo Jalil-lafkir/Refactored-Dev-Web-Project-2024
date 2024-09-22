@@ -2,7 +2,7 @@ import React from "react";
 import departmentsIntros from "../../public/assets/data/departmentsData.js";
 import DepartmentCard from "./DepartmentCard.jsx";
 const departmentsData = departmentsIntros();
-const [math, computerScience, physics, NaturalScience] = departmentsData;
+const [math, computerScience, physics, naturalScience] = departmentsData;
 
 const Home = () => {
   return (
@@ -30,7 +30,7 @@ const Home = () => {
           <DepartmentCard departmentObj={math} />
           <DepartmentCard departmentObj={computerScience} />
           <DepartmentCard departmentObj={physics} />
-          <DepartmentCard departmentObj={NaturalScience} />
+          <DepartmentCard departmentObj={naturalScience} />
         </div>
       </div>
     </section>

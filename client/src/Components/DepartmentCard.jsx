@@ -1,6 +1,6 @@
 import React from "react";
 
-const DepartmentCard = (departmentObj) => {
+const DepartmentCard = ({ departmentObj }) => {
   const { title, DepatmentCover, intro, id } = departmentObj;
   return (
     <div className="DepartmentCardStyle">

@@ -7,6 +7,7 @@ function departmentsIntros() {
       intro:
         "The Mathematics Department was the first department established at the Higher Teachers School.",
       id: "MathSection",
+      summry: "",
     },
     {
       title: "Copmputer Science",
@@ -15,6 +16,7 @@ function departmentsIntros() {
       intro:
         "The Computer Science Department was latest department established at the Higher Teachers School.",
       id: "ComputerScienceSection",
+      summry: "",
     },
     {
       title: "Physics",
@@ -23,6 +25,7 @@ function departmentsIntros() {
       intro:
         "The Physics Department is the most diversified department at the Higher Teachers School.",
       id: "PhysicsSection",
+      summry: "",
     },
     {
       title: "Natural Science",
@@ -31,6 +34,7 @@ function departmentsIntros() {
       intro:
         "The Natural Science Departments is the largest departments at the Higher Teachers School.",
       id: "NaturalSienceSection",
+      summry: "",
     },
   ];
   return data;
